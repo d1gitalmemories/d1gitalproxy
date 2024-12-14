@@ -49,4 +49,4 @@ def post_to_discord(webhookId, webhookToken):
         return jsonify({'error': 'Failed to post to Discord'}), 500
 
 if __name__ == '__main__':
-    serve(app, host='0.0.0.0', port=21392)
+    serve(app, host='0.0.0.0', port=YOUR-OPEN-PORT-HERE)
